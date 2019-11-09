@@ -16,6 +16,8 @@ script:
   - pycodestyle binary_tree.py
   - conda install -c conda-forge time
   - python test_binary_tree.py
+  - git hash-tables-ellenwaddle update --init
+  - git avl_tree update --init 
 
 
 # python insert_key_value_pairs.py --struct tree --dataset small_database.txt --number_of_keys 10
