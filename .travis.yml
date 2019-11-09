@@ -1,0 +1,3 @@
+pycodestyle binary_tree.py
+pycodestyle my_avl.py
+pycodestyle avl.py
